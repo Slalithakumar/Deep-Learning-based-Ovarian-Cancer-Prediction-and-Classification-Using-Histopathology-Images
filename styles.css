@@ -1,0 +1,119 @@
+/* ------------------------------
+   GLOBAL PAGE STYLING
+--------------------------------*/
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f2ff;   /* soft medical blue */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* ------------------------------
+   HEADERS
+--------------------------------*/
+h1 {
+    text-align: center;
+    color: #0057b3;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #004b99;
+    margin-top: 25px;
+}
+
+/* ------------------------------
+   UPLOAD CARD (HOME PAGE)
+--------------------------------*/
+.upload-section {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.preview-img {
+    width: 100%;
+    max-width: 350px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 12px;
+    border: 3px solid #cce3ff;
+}
+
+/* ------------------------------
+   BUTTONS
+--------------------------------*/
+.btn, .back-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 18px;
+    background: #0066cc;
+    color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn:hover, .back-btn:hover {
+    background: #004b99;
+}
+
+/* ------------------------------
+   RESULT CARD (RESULT PAGE)
+--------------------------------*/
+.result-card {
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+/* Prediction text */
+.prediction {
+    padding: 12px;
+    background: #f0f7ff;
+    border-left: 5px solid #0073e6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ------------------------------
+   PROBABILITY TABLE
+--------------------------------*/
+.prob-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.prob-table th {
+    background: #0066cc;
+    color: white;
+    padding: 10px;
+}
+
+.prob-table td {
+    padding: 10px;
+    border-bottom: 1px solid #d9e6ff;
+}
+
+/* ------------------------------
+   ERROR BOX (Invalid Images)
+--------------------------------*/
+.error-box {
+    background: #ffd5d5;
+    border-left: 5px solid red;
+    padding: 12px;
+    font-weight: bold;
+    color: #b30000;
+    margin-top: 20px;
+}
